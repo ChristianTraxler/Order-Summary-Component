@@ -1,0 +1,109 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.order-summary {
+    margin-top: 10%;
+}
+
+.header-image {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.order-summary-card {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    box-shadow: #d9d6f7 0 20px 25px -5px, #d9d6f7 0 10px 10px -5px;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -21px;
+    height: 67%;
+}
+
+.title {
+    padding-top: 36px;
+    text-align: center;
+}
+
+.summary-txt {
+    display: grid;
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5em;
+}
+
+.plan {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.music-icon {
+    width: 15%;
+}
+
+.annual { font-weight: 900; }
+
+.annual, .price {
+    display: flex;
+    width: 100%;
+    margin: 0 15%;
+}
+
+.annual-price {
+    display: grid;
+    gap: 0;
+}
+
+.price { color: hsl(224, 23%, 55%); }
+
+.change {
+    margin: 12px 0 0 60px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.payment {
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: #d9d6f7 0 20px 25px -5px, #d9d6f7 0 10px 10px -5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.cancel {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+
+
+
+
+.attribution {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
