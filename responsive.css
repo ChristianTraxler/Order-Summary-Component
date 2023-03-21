@@ -24,22 +24,27 @@
 }
 
 
-/*@media screen and (max-width: 375px) {*/
+@media screen and (max-width: 400px) {
 
-/*    .header-image, .order-summary-card { width: 88%; }*/
+    .header-image, .order-summary-card { width: 88%; }
 
-/*    .order-summary-card { height: 70%; }*/
+    .order-summary-card { height: 70%; }
 
-/*    .title { font-size: 24px; }*/
+    .title { font-size: 24px; }
 
-/*    .summary-txt { max-width: 84%; }*/
+    .summary-txt { max-width: 84%; }
 
-/*    .annual, .price { font-size: 0.8em; }*/
+    .annual, .price { font-size: 0.8em; }
 
-/*    .music-icon { width: 20%; }*/
+    .music-icon { width: 20%; }
 
-/*    .change {*/
-/*        margin: 12px 0 0 40px;*/
-/*        font-size: 0.8em;*/
-/*    }*/
-/*}*/
+    .change {
+        margin: 12px 0 0 50px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .change { margin: 12px 0 0 40px; }
+}
