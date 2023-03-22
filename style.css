@@ -70,6 +70,7 @@ main {
 .annual-price {
     display: grid;
     gap: 0;
+    align-items: center;
 }
 
 .price { color: hsl(224, 23%, 55%); }

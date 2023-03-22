@@ -25,7 +25,6 @@
     footer { padding: 0 0 20px 0; }
 }
 
-
 @media screen and (max-width: 400px) {
 
     .header-image, .order-summary-card { width: 88%; }
@@ -41,7 +40,12 @@
     .music-icon { width: 20%; }
 
     .change {
-        margin: 12px 0 0 50px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin: initial;
+        top: -4px;
+        left: 44px;
         font-size: 0.8em;
     }
 
@@ -50,7 +54,10 @@
 
 @media screen and (max-width: 375px) {
 
-    .change { margin: 12px 0 0 40px; }
+    .change {
+        margin: initial;
+        left: 34px;
+    }
 
     .cancel { width: 37%; }
 }
