@@ -22,11 +22,12 @@
         left: 57px;
         font-size: 0.8em;
         font-weight: 700;
+        height: initial;
     }
 
     .cancel { width: 32%; }
 
-    footer { padding: 0 0 20px 0; }
+    footer { padding: 20px 0 20px 0; }
 }
 
 @media screen and (max-width: 400px) {
@@ -43,24 +44,14 @@
 
     .music-icon { width: 20%; }
 
-    .change {
-        display: flex;
-        position: relative;
-        align-items: center;
-        margin: initial;
-        left: 44px;
-        font-size: 0.8em;
-    }
+    .change { left: 44px; }
 
     .cancel { width: 35%; }
 }
 
 @media screen and (max-width: 375px) {
 
-    .change {
-        margin: initial;
-        left: 34px;
-    }
+    .change { left: 34px; }
 
     .cancel { width: 37%; }
 }
